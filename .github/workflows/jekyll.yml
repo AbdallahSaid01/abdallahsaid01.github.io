@@ -33,8 +33,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Install Bundler 1.17.3
-        run: gem install bundler:1.17.3
+      # - name: Install Bundler 1.17.3
+      #   run: gem install bundler:1.17.3
       - name: Use Bundler 1.17.3
         run: bundle _1.17.3_ lock
       - name: Setup Ruby
