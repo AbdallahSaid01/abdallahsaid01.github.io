@@ -37,7 +37,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   HTML5 UP's sleek, responsive site template Prologue.
 author: Abdallah Said
 email: amhs2200@gmail.com
-avatar: assets/images/icon.webp
+avatar: assets/images/profile.png
 
 # You'll want to customize url and baseurl for your own site:
 baseurl: "abdallahsaid01.github.io" # the subpath of your site, e.g. /blog
