@@ -33,4 +33,10 @@
   {%- if site.email -%}
   <li><a href="mailto:{{- site.email -}}" class="icon fa-envelope"><span class="label">Email</span></a></li>
   {%- endif -%}
+  {%- if site.itchio_url -%}
+  <li><a href="{{- site.itchio_url -}}" class="icon-b fa-itch-io"><span class="label">Itch.io</span></a></li>
+  {%- endif -%}
+  {%- if site.artstation_url -%}
+  <li><a href="{{- site.artstation_url -}}" class="icon-b fa-artstation"><span class="label">ArtStation</span></a></li>
+  {%- endif -%}
 </ul>
